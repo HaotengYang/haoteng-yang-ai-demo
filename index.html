@@ -22,7 +22,7 @@
       <p class="text-gray-700 mb-4">Below is the demo video showing AI-powered recording and execution.</p>
       <div class="aspect-video bg-black rounded-xl overflow-hidden">
         <video controls class="w-full h-full">
-          <source src="NEP演示.mp4" type="video/mp4" />
+          <source src="NEP_demo.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
       </div>
@@ -60,44 +60,56 @@
     <section class="mt-16">
       <h2 class="text-2xl font-bold mb-6">Evaluation Dataset (Excerpt)</h2>
       <p class="text-gray-700 mb-4">Excerpt from the dataset used to benchmark AI precision & stability.</p>
-
+    
       <div class="overflow-auto border bg-white rounded-xl shadow-sm">
         <table class="min-w-full text-sm">
           <thead class="bg-gray-100 text-left">
             <tr>
-              <th class="p-3">业务场景</th>
-              <th class="p-3">一级标签</th>
-              <th class="p-3">二级标签</th>
-              <th class="p-3">评测梯度</th>
-              <th class="p-3">用例来源</th>
-              <th class="p-3">难度</th>
-              <th class="p-3">验证维度</th>
+              <th class="p-3">Scenario</th>
+              <th class="p-3">Category</th>
+              <th class="p-3">Subcategory</th>
+              <th class="p-3">Case Type</th>
+              <th class="p-3">Source</th>
+              <th class="p-3">Difficulty</th>
+              <th class="p-3">Validation</th>
               <th class="p-3">logid</th>
             </tr>
           </thead>
           <tbody>
             <tr class="border-t">
-              <td class="p-3">元素定位</td><td class="p-3">基础组件</td><td class="p-3">Button</td>
-              <td class="p-3">含文字有边框</td><td class="p-3">内部评测</td><td class="p-3">简单</td><td class="p-3">正向</td>
+              <td class="p-3">Element Detection</td>
+              <td class="p-3">Basic Component</td>
+              <td class="p-3">Button</td>
+              <td class="p-3">Text + Border</td>
+              <td class="p-3">Internal Benchmark</td>
+              <td class="p-3">Easy</td>
+              <td class="p-3">Positive</td>
               <td class="p-3">202504241210203C26A23EE65DEC104DD6</td>
             </tr>
             <tr class="border-t">
-              <td class="p-3">元素定位</td><td class="p-3">基础组件</td><td class="p-3">Button</td>
-              <td class="p-3">不含文字有边框</td><td class="p-3">内部评测</td><td class="p-3">中等</td><td class="p-3">正向</td>
+              <td class="p-3">Element Detection</td>
+              <td class="p-3">Basic Component</td>
+              <td class="p-3">Button</td>
+              <td class="p-3">Border Only</td>
+              <td class="p-3">Internal Benchmark</td>
+              <td class="p-3">Medium</td>
+              <td class="p-3">Positive</td>
               <td class="p-3">20250425035654FB0628F80613831D7440</td>
             </tr>
             <tr class="border-t">
-              <td class="p-3">元素定位</td><td class="p-3">基础组件</td><td class="p-3">Button</td>
-              <td class="p-3">含文字无边框</td><td class="p-3">内部评测</td><td class="p-3">简单</td><td class="p-3">正向</td>
-              <td class="p-3">202504270618524CF42FD610B6E446B5D1</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-
-      <p class="text-gray-500 text-sm mt-2">(Full dataset available upon request)</p>
-    </section>
-
+              <td class="p-3">Element Detection</td>
+              <td class="p-3">Basic Component</td>
+              <td class="p-3">Button</td>
+                <td class="p-3">Text Only</td>
+                <td class="p-3">Internal Benchmark</td>
+                <td class="p-3">Easy</td>
+                <td class="p-3">Positive</td>
+                <td class="p-3">202504270618524CF42FD610B6E446B5D1</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
   </main>
 
   <footer class="text-center py-10 text-gray-500">
